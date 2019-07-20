@@ -5,5 +5,5 @@ run:
   web: bundle exec puma -C config/puma.rb
   worker:
     command:
-      - python myworker.py
+      - python bootstrap/main.py
     image: web
